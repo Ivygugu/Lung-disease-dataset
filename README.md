@@ -13,6 +13,12 @@
    * [4D-Lung](#4d-lung)
    * [NSCLC-Radiomics](#nsclc-radiomics)
    * [vessel12 肺部血管分割](#vessel12-肺部血管分割)
+   * [肺栓塞](#肺栓塞)
+      * [RSNA肺栓塞检测](#rsna肺栓塞检测)
+      * [CT Pulmonary Angiography](#CT Pulmonary Angiography)
+      * [RadFusion: Multimodal Pulmonary Embolism Dataset](#RadFusion: Multimodal Pulmonary Embolism Dataset)
+      * [CAD-PE](#CAD-PE)
+      * [FUMPE](#FUMPE)
    * [肺结核](#肺结核)
       * [Shenzhen Hospital X-ray Set](#shenzhen-hospital-x-ray-set)
       * [Montgomery County X-ray Set](#montgomery-county-x-ray-set)
@@ -35,8 +41,6 @@
       * [Lung Nodule Malignancy](#lung-nodule-malignancy)
       * [Data Science Bowl 17](#data-science-bowl-17)
       * [Lung-PET-CT-Dx](#lung-pet-ct-dx)
-   * [气胸](#气胸)
-      * [SIIM-ACR Pneumothorax Segmentation](#siim-acr-pneumothorax-segmentation)
       
 =================
 
@@ -144,6 +148,17 @@ LoLa11 包含55套CT数据，未发现任何公开标注信息
 ![vessel12](https://grand-challenge-public-prod.s3.amazonaws.com/b/1/header.x15.jpeg)
 
 [Aistudio下载](https://aistudio.baidu.com/aistudio/datasetdetail/94923)
+
+
+## 肺栓塞
+
+| 名称 | 标注内容 | 类型 | 模态 | 数量 | 标签格式 | 文件格式 | License |
+| - | - | - | - | - | - | - | - |
+| [The RSNA Pulmonary Embolism CT Dataset](https://www.kaggle.com/competitions/rsna-str-pulmonary-embolism-detection/data?select=train.csv)) |  | 检测　|　CT |  |  |  | |
+| [CT Pulmonary Angiography](https://stanfordaimi.azurewebsites.net/datasets/12c02840-2e13-42a2-b4ef-f682472d4694) |  | 检测　|　CT |  |  |  | |
+| [RadFusion: Multimodal Pulmonary Embolism Dataset](https://stanfordaimi.azurewebsites.net/datasets/3a7548a4-8f65-4ab7-85fa-3d68c9efc1bd) |  | 检测　|　CT |  |  |  | |
+| [CAD-PE](https://ieee-dataport.org/open-access/cad-pe) |  | 分割　|　CT |  |  |  | |
+| [FUMPE](https://www.kaggle.com/datasets/andrewmvd/pulmonary-embolism-in-ct-images) |  | 分割　|　CT |  |  |  | |
 
 ## 肺结核
 
@@ -333,12 +348,4 @@ Aistudio下载 [Part1](https://aistudio.baidu.com/aistudio/datasetdetail/63957) 
 | [Lung-PET-CT-Dx](https://wiki.cancerimagingarchive.net/pages/viewpage.action?pageId=70224216) | 肺癌　| 目标检测 | CT | 363 | xml | dcm |
 
 ![Lung-PET-CT-Dx](https://raw.githubusercontent.com/linhandev/dataset/main/static/Lung-PET-CT-Dx.png)
-
-## 气胸
-
-### SIIM-ACR Pneumothorax Segmentation
-
-| 名称      | 标注内容 | 类型 | 模态 | 数量 | 标签格式 | 文件格式 |
-| - | - | - | - | - | - | - |
-| [SIIM-ACR Pneumothorax Segmentation](https://www.kaggle.com/c/siim-acr-pneumothorax-segmentation) |   |   |    |   |   |  |
 

@@ -154,10 +154,10 @@ LoLa11 包含55套CT数据，未发现任何公开标注信息
 
 | 名称 | 标注内容 | 类型 | 模态 | 数量 | 标签格式 | 文件格式 | License |
 | - | - | - | - | - | - | - | - |
-| [The RSNA Pulmonary Embolism CT Dataset](https://www.kaggle.com/competitions/rsna-str-pulmonary-embolism-detection/data?select=train.csv)) |  | 检测　|　CT |  |  |  | |
-| [CT Pulmonary Angiography](https://stanfordaimi.azurewebsites.net/datasets/12c02840-2e13-42a2-b4ef-f682472d4694) |  | 检测　|　CT |  |  |  | |
-| [RadFusion: Multimodal Pulmonary Embolism Dataset](https://stanfordaimi.azurewebsites.net/datasets/3a7548a4-8f65-4ab7-85fa-3d68c9efc1bd) |  | 检测　|　CT |  |  |  | |
-| [CAD-PE](https://ieee-dataport.org/open-access/cad-pe) |  | 分割　|　CT |  |  |  | |
+| [The RSNA Pulmonary Embolism CT Dataset](https://www.kaggle.com/competitions/rsna-str-pulmonary-embolism-detection/data?select=train.csv) |  | 检测　|　CT | 2,995,147 |  |  | |
+| [CT Pulmonary Angiography](https://stanfordaimi.azurewebsites.net/datasets/12c02840-2e13-42a2-b4ef-f682472d4694) |  | 检测　|　CT | 408,856 |  |  | |
+| [RadFusion: Multimodal Pulmonary Embolism Dataset](https://stanfordaimi.azurewebsites.net/datasets/3a7548a4-8f65-4ab7-85fa-3d68c9efc1bd) |  | 检测　|　CT | 1,843 |  |  | |
+| [CAD-PE](https://ieee-dataport.org/open-access/cad-pe) |  | 分割　|　CT | 91例 |  |  | |
 | [FUMPE](https://www.kaggle.com/datasets/andrewmvd/pulmonary-embolism-in-ct-images) |  | 分割　|　CT |  |  |  | |
 
 ## 肺结核

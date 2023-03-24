@@ -15,8 +15,8 @@
    * [vessel12 肺部血管分割](#vessel12-肺部血管分割)
    * [肺栓塞](#肺栓塞)
       * [RSNA肺栓塞检测](#rsna肺栓塞检测)
-      * [CT Pulmonary Angiography](#CT Pulmonary Angiography)
-      * [RadFusion: Multimodal Pulmonary Embolism Dataset](#RadFusion: Multimodal Pulmonary Embolism Dataset)
+      * [CT Pulmonary Angiography](#CT-Pulmonary-Angiography)
+      * [RadFusion: Multimodal Pulmonary Embolism Dataset](#RadFusion-Multimodal-Pulmonary-Embolism-Dataset)
       * [CAD-PE](#CAD-PE)
       * [FUMPE](#FUMPE)
    * [肺结核](#肺结核)
@@ -152,13 +152,13 @@ LoLa11 包含55套CT数据，未发现任何公开标注信息
 
 ## 肺栓塞
 
-| 名称 | 标注内容 | 类型 | 模态 | 数量 | 标签格式 | 文件格式 | License |
-| - | - | - | - | - | - | - | - |
-| [The RSNA Pulmonary Embolism CT Dataset](https://www.kaggle.com/competitions/rsna-str-pulmonary-embolism-detection/data?select=train.csv) |  | 检测　|　CT | 2,995,147 |  |  | |
-| [CT Pulmonary Angiography](https://stanfordaimi.azurewebsites.net/datasets/12c02840-2e13-42a2-b4ef-f682472d4694) |  | 检测　|　CT | 408,856 |  |  | |
-| [RadFusion: Multimodal Pulmonary Embolism Dataset](https://stanfordaimi.azurewebsites.net/datasets/3a7548a4-8f65-4ab7-85fa-3d68c9efc1bd) |  | 检测　|　CT | 1,843 |  |  | |
-| [CAD-PE](https://ieee-dataport.org/open-access/cad-pe) |  | 分割　|　CT | 91例 |  |  | |
-| [FUMPE](https://www.kaggle.com/datasets/andrewmvd/pulmonary-embolism-in-ct-images) |  | 分割　|　CT |  |  |  | |
+| 名称 | 标注内容 | 类型 | 模态 | 数量 | 标签格式 | 文件格式 |
+| - | - | - | - | - | - | - |
+| [The RSNA Pulmonary Embolism CT Dataset](https://www.kaggle.com/competitions/rsna-str-pulmonary-embolism-detection/data?select=train.csv) |  | 检测　|　CT | 2,995,147 |  | dcm |
+| [CT Pulmonary Angiography](https://stanfordaimi.azurewebsites.net/datasets/12c02840-2e13-42a2-b4ef-f682472d4694) |  | 检测　|　CT | 408,856 |  | dcm |
+| [RadFusion: Multimodal Pulmonary Embolism Dataset](https://stanfordaimi.azurewebsites.net/datasets/3a7548a4-8f65-4ab7-85fa-3d68c9efc1bd) |  | 检测　|　CT | 1,843 | csv | npy |
+| [CAD-PE](https://ieee-dataport.org/open-access/cad-pe) |  | 分割　|　CT | 91例 | mask | nrrd |
+| [FUMPE](https://www.kaggle.com/datasets/andrewmvd/pulmonary-embolism-in-ct-images) |  | 分割　|　CT | 35例，8792 | mask | dcm |
 
 ## 肺结核
 
